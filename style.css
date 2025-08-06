@@ -1,0 +1,262 @@
+/*Banner Section*/
+.portfolio-logo {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 700;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #4b6cc1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.banner-section-bg-container {
+    background-color: #191a1d;
+    height: 70vh;
+}
+
+.banner-section-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner-section-description {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 24px;
+}
+
+.banner-section-image {
+    width: 280px;
+    margin-bottom: 10px;
+}
+
+.person-name {
+    color: #4b6cc1;
+}
+
+.custom-button {
+    color: white;
+    background-color: #4b6cc1;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+}
+
+/*About me and skills */
+.about-me-section {
+    background-color: #323f4b;
+}
+
+.about-me-section-sub-heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-me-section-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 36px;
+}
+
+.about-me-section-description {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.about-me-section-image {
+    width: 100%;
+}
+
+.skills-section {
+    background-color: #1f2933;
+}
+
+.skills-section-sub-heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.skills-card {
+    background-color: #323f4b;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.skills-card-image {
+    width: 64px;
+    height: 64px;
+}
+
+.skills-card-title {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/*3.Projects Section*/
+.bg-container {
+    background-color: #3e4c59;
+}
+
+.portfolio-paragraph {
+    color: #cced00;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.portfolio-heading {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.card-image1 {
+    width: 100%;
+
+}
+
+.bg-container2 {
+    background-color: #323f4b;
+}
+
+.read-more {
+    color: #cced00;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.wed-paragraph {
+    color: #9aa5b1;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.meals-paragraph {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.webs-paragraph {
+    color: #9aa5b1;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/*service section*/
+.bg-container-service {
+    background-color: #52606d;
+}
+
+.service-paragraph {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.service-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.bg-container-website {
+    background-color: #323f4b;
+    border-radius: 10px;
+
+
+}
+
+.card-image {
+    height: 80px;
+    width: 80px;
+
+}
+
+.web-site-para1 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.web-site-para2 {
+    color: #9aa5b1;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/*Work Done Section*/
+.work-done-section {
+    background-image: url("https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
+    background-size: cover;
+}
+
+.hr-line {
+    background-color: white;
+    width: 60px;
+}
+
+.work-done-card-title {
+    color: white;
+    font-family: "Roboto";
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.work-done-card-sub-title {
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+/*Footer Section*/
+.footer-section {
+    background-color: #0d2436;
+}
+
+.footer-section-image {
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+}
+
+.jenny-para1 {
+    color: #cced00;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.jenny-para2 {
+    color: #9aa5b1;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.bg-container2 {
+    background-color: #0d2436;
+    background-color: #001c32;
+}
+
+.jenny-para3 {
+    color: #5a7184;
+    font-size: 20px;
+    font-weight: 400;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-color: #5a7184;
+    border-style: solid;
+}
