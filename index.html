@@ -10,25 +10,25 @@
 
 <body>
     <!--1.Banner Section-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand portfolio-logo" href="#">J.</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-                <a class="nav-link active text-white" href="#">
+                <a class="nav-link active text-white" href="#home">
                     Home
                     <span class="sr-only">(current)</span>
                 </a>
-                <a class="nav-link text-white" href="#">About me</a>
-                <a class="nav-link text-white" href="#">Projects</a>
-                <a class="nav-link text-white" href="#">Recent Blogs</a>
-                <a class="nav-link text-white" href="#">Testimonial</a>
+                <a class="nav-link text-white" href="#aboutme">About me</a>
+                <a class="nav-link text-white" href="#projects">Projects</a>
+                <a class="nav-link text-white" href="#service">Services</a>
+
             </div>
         </div>
     </nav>
-    <div class="banner-section-bg-container d-flex flex-column justify-content-center">
+    <div class="banner-section-bg-container d-flex flex-column justify-content-center " id="home">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-5 order-1 order-md-2">
@@ -37,13 +37,13 @@
                 <div class="col-12 col-md-7 order-2 order-md-1 d-flex flex-column justify-content-center">
                     <h1 class="banner-section-heading mb-3">Hey, I am <span class="person-name">Sai Jaswanth</span></h1>
                     <p class="banner-section-description mb-3">I am a Web developer.</p>
-                    <button class="custom-button">Contact Me</button>
+                    <button class="custom-button" data-toggle="modal" data-target="#contactme">Contact Me</button>
                 </div>
             </div>
         </div>
     </div>
     <!--2.About ME and skills-->
-    <div class="about-me-section pt-5 pb-5">
+    <div class="about-me-section pt-5 pb-5" id="aboutme">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6 order-1 order-md-2 d-flex flex-column justify-content-center">
@@ -106,7 +106,7 @@
     </div>
 
     <!--3.Projects Section-->
-    <div class="bg-container ">
+    <div class="bg-container" id="projects">
         <div class="container">
             <div class="row">
                 <div class="col-12 ">
@@ -168,7 +168,7 @@
     </div>
 
     <!--4.Service Section-->
-    <div class="bg-container-service">
+    <div class="bg-container-service" id="service">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -261,8 +261,8 @@
         </div>
     </div>
 
-    <!--6.Footer Section-->
-    <div class="footer-section">
+    <!--Footer Section-->
+    <div class="footer-section" id="contactme" tabindex="-1">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-3 pt-4">
